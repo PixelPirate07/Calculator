@@ -18,7 +18,7 @@ public class Calc {
         } else {
             System.out.println("c is greater");
         }
-        System.out.println("hello");
+        System.out.println("hello world");
         sc.close();
     }
 
