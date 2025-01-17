@@ -8,11 +8,9 @@ public class Calc {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-<<<<<<< HEAD
-      
->>>>>>> subtraction
-        System.out.println(a+b);
-        System.out.println(a-b);
+
+        System.out.println(a + b);
+        System.out.println(a - b);
         sc.close();
     }
 
