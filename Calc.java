@@ -6,7 +6,8 @@ public class Calc {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println("addition" + (a + b) + "subtraction" + (a - b) + "multiplication" + (a * b));
+        System.out.println(
+                "addition" + (a + b) + "subtraction" + (a - b) + "multiplication" + (a * b) + "division" + (a / b));
         sc.close();
     }
 
