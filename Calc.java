@@ -1,5 +1,12 @@
+import java.util.*;
+
 public class Calc {
     public static void main(String args[]) {
-        System.out.println("Hello");
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        int y = sc.nextInt();
+        int z = x / y;
+        System.out.println(z);
+        sc.close();
     }
 }
